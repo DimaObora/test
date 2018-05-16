@@ -1,0 +1,856 @@
+/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ============== Base styles: opinionated defaults
+   ========================================================================== */
+/*
+ * Remove text-shadow in selection highlight:
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+/* A better looking default horizontal rule */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers
+ */
+audio, canvas, iframe, img, svg, video {
+    vertical-align: middle;
+}
+/* Remove default fieldset styles. */
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+/* Allow only vertical resizing of textareas. */
+textarea {
+    resize: vertical;
+}
+/* ============== СТИЛИ ВСЕЙ СТРАНИЦЫ И ГЛОБАЛЬНЫЕ
+   ========================================================================== */
+html {
+    /*background: #f5f5f5;*/
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #222222;
+    font: 18px/1.35 "Имя_кастомного_шрифта", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue Cyr", "Helvetica CY", Roboto, Ubuntu, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    min-width: 600px;
+    text-align: center;
+}
+/* Верный resize текста на мобильных устройствах. Если это свойство понадобится, можно писать с !important;  */
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    max-height: 999999px;
+}
+button, input, textarea {
+    font-family: Arial, sans-serif;
+}
+.placeholder {
+    color: #a9a9a9;
+}
+:-ms-input-placeholder {
+    color: #a9a9a9;
+}
+:-moz-placeholder {
+    color: #a9a9a9;
+    opacity: 1;
+}
+::-moz-placeholder {
+    color: #a9a9a9;
+    opacity: 1;
+}
+::-webkit-input-placeholder {
+    color: #a9a9a9;
+}
+.g-phone-pc {
+    display: none;
+}
+.g-phone-mobile {
+    white-space: nowrap;
+}
+.g-h1h2, .g-h3, .g-h4, .g-h5, .g-h6, .g-block, .g-ul {
+    margin: 0 0 30px 0;
+}
+.g-h1h2 {
+    font-family: 'open_sansregular', arial;
+    font-size: 38px;
+    line-height: 1.2;
+    margin: 0 0 20px 0;
+}
+.g-h3 {
+    font-size: 28px;
+    line-height: 1.25;
+    margin: 0 0 20px 0;
+}
+.g-btn {
+    background: #ffffff;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 22px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 21px;
+    margin: 0;
+    padding: 7px 36px 8px 36px;
+    text-decoration: none;
+    -webkit-transition: background .3s, color .3s;
+    -o-transition: background .3s, color .3s;
+    transition: background .3s, color .3s;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.g-btn_bac-whi {
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 22px;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 21px;
+    margin: 0;
+    padding: 7px 36px 8px 36px;
+    text-decoration: none;
+    -webkit-transition: background .3s, color .3s;
+    -o-transition: background .3s, color .3s;
+    transition: background .3s, color .3s;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.g-btn:hover {
+    background: #0e49a7;
+    color: #ffffff;
+}
+.g-btn:focus {
+    outline: none;
+}
+.g-link {
+    color: #4e4e4e;
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* Обертка .g-input нужна для поддержки иконок, псевдоэлементов и однозначных паддингов */
+.g-input, .g-input__field {
+    display: inline-block;
+    font-size: 21px;
+    line-height: 1;
+}
+.g-input {
+    background: #e6e6e6;
+    border: none;
+    border-radius: 6px;
+    cursor: text;
+    margin: 10px 0 0;
+    padding: 10px 15px 10px 50px;
+    text-align: left;
+}
+.g-input__field {
+    background: none;
+    border: none;
+    height: 25px; /* Высота явная для случаев, когда шрифты не подгрузились */
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.g-input__field:focus {
+    border: none;
+    outline: none;
+    padding: 0;
+}
+.g-recall {
+    visibility: hidden;
+}
+/* ============== ИКОНОЧНЫЙ ШРИФТ
+   ========================================================================== */
+@font-face {
+    font-family: 'intop_icons';
+    src: url('../css/fonts/intop_icons.eot?a7jf7t');
+    src: url('../css/fonts/intop_icons.eot?a7jf7t#iefix') format('embedded-opentype'),
+    url('../css/fonts/intop_icons.ttf?a7jf7t') format('truetype'),
+    url('../css/fonts/intop_icons.woff?a7jf7t') format('woff'),
+    url('../css/fonts/intop_icons.svg?a7jf7t#intop_icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.g-icon {
+    position: relative;
+}
+.g-icon:before {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'intop_icons' !important;
+    speak: none;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    color: #bbbbbb;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.g-icon-name:before {
+    content: "\f001";
+}
+.g-icon-phone:before {
+    content: "\f002";
+}
+.g-icon-mail:before {
+    content: "\f003";
+}
+.g-icon-comment:before {
+    content: "\f004";
+}
+.g-icon-lock:before {
+    content: "\f005";
+    top: 3px;
+    left: 0;
+    font-size: 20px;
+}
+.g-icon-left:before {
+    content: "\f010";
+}
+.g-icon-right:before {
+    content: "\f011";
+}
+/* ============== ЧАСТО ИСПОЛЬЗУЕМЫЕ БЛОКИ (mobile)
+   ========================================================================== */
+.g-stretch {
+    font-size: 1px;
+    line-height: 1;
+    text-align: center;
+}
+.g-stretch-always {
+    text-align: justify;
+}
+.g-stretch__item {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.35;
+    text-align: center;
+}
+.g-stretch-desktop .g-stretch__item {
+    display: block;
+}
+.g-stretch__pc {
+    display: none;
+}
+.g-stretch:after {
+    content: "";
+    display: inline-block;
+    font-size: 1px;
+    line-height: 1;
+    width: 100%;
+}
+.menu {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.menu__btn {
+    height: 70px;
+    width: 75px;
+    /* черная иконка бутерброда */
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAeAQMAAAB+Ly4QAAAABlBMVEVHcEwiIiLWMREbAAAAAXRSTlMAQObYZgAAABRJREFUCNdj+A8EHxgwSfIAXUwDAMboOxGbCgawAAAAAElFTkSuQmCC) center center no-repeat;
+    /* белая иконка */
+    /*background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAeCAMAAABzP0xhAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////////VXz1bAAAAAJ0Uk5T/wDltzBKAAAAHUlEQVR42mJgGISAkQgwqohIRaMRPBrB9AYAAQYAgXkCiahSUxQAAAAASUVORK5CYII=) center center no-repeat;*/
+    cursor: pointer;
+}
+.menu__closer {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    background: rgba(247, 208, 75, .8);
+}
+.menu__closerIcon {
+    position: fixed;
+    left: 40px;
+    top: 100px;
+    height: 70px;
+    width: 70px;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.menu__content {
+    display: none;
+    position: fixed;
+    left: 150px;
+    right: 0;
+    top: 0;
+    z-index: 101;
+}
+.menu__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background: #cccccc;
+}
+.menu__item {
+    margin-top: 1px;
+    padding: 15px 0;
+    text-align: center;
+    background: #ffffff;
+    cursor: pointer;
+}
+.menu__item:hover {
+    background: #f8d96f;
+}
+.request {
+    text-align: center;
+}
+.request__field {
+    width: 330px;
+}
+.request__field-comment {
+    height: 100px;
+}
+.request__save {
+    margin: 5px auto;
+}
+.request__saveText {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    padding-left: 5px;
+}
+.request__agreement, .request__agreement:visited {
+    color: #3482c1;;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.privacyAgreement {
+    text-align: left;
+}
+.privacyAgreement__h {
+    text-align: center;
+}
+.request__h {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 auto 10px;
+    max-width: 500px;
+}
+.request__submit {
+    margin-top: 20px;
+    visibility: hidden;
+}
+.spinner {
+    padding: 50px 0;
+    text-align: center;
+}
+.spinner__logo, .spinner__preloader {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+/* ============== ОСНОВНЫЕ КОНТЕЙНЕРЫ
+   ========================================================================== */
+.landing {
+}
+.landing-noScroll {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.landing__wrap {
+    margin: 0 auto;
+    max-width: 1920px;
+    overflow: hidden;
+    /*background: #ffffff;*/
+}
+.landing__wrap-menu {
+    overflow: visible;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+}
+.landing__line {
+    margin: 30px 8px 0 8px;
+}
+.landing__line-menu {
+    margin: auto;
+}
+.landing__line-first {
+    margin-top: 100px;
+}
+/* ================ ФОНЫ БЛОКОВ
+   ========================================================================== */
+.g-bg-the-wall-is-blue{
+    background: #ffffff;
+}
+.g-bgblue{
+    background: #325a73;
+}
+.g-bgDarkGray {
+    background: #555555;
+}
+
+
+    .g-bgparking {
+        background-image: url(../img/fon.png);
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-size: cover;
+    }
+@media (min-width: 1001px) {
+    .g-bgparking {
+        background-image: url(../img/fon.png);
+        background-repeat: no-repeat;
+        background-position: 1px -160px;
+        background-size: 100%;
+    }
+}
+
+.g-bgaquamarine {
+    background: #32a693;
+}
+.g-bgRender {
+    background: #4a4130 url(../img/fon-bot.jpg);
+    background-repeat: no-repeat;
+    background-position: 1px -294px;
+    background-size: 100%;
+}
+.g-bgRender {
+    background-image: url(../img/fon-bot.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+@media (min-width: 1001px) {
+    .g-bgRender {
+        background: #4a4130 url(../img/fon-bot.jpg);
+        background-repeat: no-repeat;
+        background-position: 1px -381px;
+        background-size: 100%;
+    }
+
+}
+/*@media only screen and (min-width: 1001px) {*/
+    /*.g-bgRender {*/
+        /*background-image: url(../img/fon-bot.jpg);*/
+    /*}*/
+/*}*/
+/*@media only screen and (min-width: 1367px) {*/
+    /*.g-bgRender {*/
+        /*background-image: url(../img/fon-bot.jpg);*/
+    /*}*/
+/*}*/
+/* Полупрозрачные кроссбраузерные фоны */
+/*
+    .g-bgBlack-60 { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEUAAACnej3aAAAAAXRSTlOZyTXzhgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=); }
+    .g-bgBlack-90 { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEUAAACnej3aAAAAAXRSTlPmCY+fKwAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=); }
+
+    .g-bgWhite-60 { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEX///+nxBvIAAAAAXRSTlOZyTXzhgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=); }
+    .g-bgWhite-90 { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEX///+nxBvIAAAAAXRSTlPmCY+fKwAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=); }
+
+/* ================ БЛОКИ СТРАНИЦЫ (mobile)
+========================================================================== */
+/************* Header **************/
+.header {
+    height: 70px;
+}
+.header__item {
+    position: relative;
+    background: #ffd13b;
+}
+.header__item:after {
+    content: '';
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    top: 100%;
+    height: 25px;
+    background: url(../img/sprite_gradients.png) no-repeat 0 -1px;
+}
+.header__item-menu {
+    float: left;
+}
+.header__item-contacts {
+    float: right;
+    height: 100%;
+    width: 190px;
+}
+.header__item-contacts:after {
+    background-position: 0 -50px;
+}
+.header__phone {
+    margin-top: 10px;
+}
+.header__name {
+    font-size: 20px;
+    font-weight: bold;
+}
+/************* Первый блок **************/
+.first {
+    color: #ffffff;
+}
+/************* slider **************/
+.slider {
+    /* Боковые паддинги по ширине стрелочек */
+    padding: 0 28px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.slider__item {
+    width: 250px;
+    margin: 0 auto;
+
+}
+/*************  **************/
+
+/*************  **************/
+
+/*************  **************/
+
+/************* Footer  **************/
+.footer {
+    margin: 30px auto;
+}
+/* ==================== ГЛОБАЛЬНЫЕ СТИЛИ
+   ========================================================================== */
+@media only screen and (max-width: 1000px) {
+    .v-pc {
+        display: none;
+    }
+
+}
+/* =============== ДЕСКТОПНАЯ ВЕРСИЯ
+   ========================================================================== */
+@media only screen and (min-width: 1001px) {
+
+    /* ============ СТИЛИ ВСЕЙ СТРАНИЦЫ И ГЛОБАЛЬНЫЕ (desktop)
+       ========================================================================== */
+    .v-mobile {
+        display: none !important;
+    }
+    .g-phone-pc {
+        display: inline;
+        white-space: nowrap;
+    }
+    .g-phone-mobile {
+        display: none;
+    }
+    /* ============= ЧАСТО ИСПОЛЬЗУЕМЫЕ БЛОКИ (desktop)
+       ========================================================================== */
+    .g-stretch {
+        text-align: justify;
+    }
+    .g-stretch__item, .g-stretch-desktop .g-stretch__item {
+        display: inline-block;
+        text-align: center;
+        width: 170px;
+    }
+    .g-stretch__pc {
+        display: inline-block;
+    }
+    .g-stretch__mobile {
+        display: none;
+    }
+    .menu__btn {
+        display: none;
+    }
+    .menu__content {
+        display: block !important;
+        position: static;
+        float: right;
+    }
+    .menu__item {
+        float: left;
+        height: 22px;
+        margin: 0;
+        padding: 24px 6px;
+    }
+    /* ============= ОСНОВНЫЕ КОНТЕЙНЕРЫ (desktop)
+       ========================================================================== */
+    .landing__line {
+        margin-left: auto;
+        margin-right: auto;
+        width: 972px;
+    }
+    /* ============= БЛОКИ СТРАНИЦЫ (desktop)
+       ========================================================================== */
+    /************* Header **************/
+    .header {
+    }
+    .header__item-menu {
+        float: none;
+        margin-left: 200px;
+        font-size: 16px;
+
+    }
+    .header__item-menu:after {
+        content: none;
+    }
+    .header__item-contacts {
+        float: left;
+    }
+    /************* Первый блок **************/
+    .first {
+    }
+    /*************  **************/
+    /*************  **************/
+    /*************  **************/
+    /*************  **************/
+    /************* Footer  **************/
+    .footer {
+    }
+
+}
+@media (max-width: 1000px) and (max-height: 450px) and (orientation: landscape) {
+    .landing__wrap-menu {
+        display: none;
+    }
+}
+/* ========== InTOP Helper classes
+   ========================================================================== */
+.g-mb0 {
+    margin-bottom: 0;
+}
+.g-mb10 {
+    margin-bottom: 10px;
+}
+.g-mb30 {
+    margin-bottom: 30px;
+}.g-mb50 {
+    margin-bottom: 50px;
+}
+.g-mt0 {
+    margin-top: 0;
+}
+.g-mt10 {
+    margin-top: 10px;
+}
+.g-mt30 {
+    margin-top: 30px;
+}
+.g-mr-10{
+    margin-right: 10px;
+}
+.g-mr-20{
+    margin-right: 20px;
+}
+.g-mr-30{
+    margin-right: 30px;
+}
+.g-vab {
+    vertical-align: bottom;
+}
+.g-vam {
+    vertical-align: middle;
+}
+.g-vat {
+    vertical-align: top;
+}
+.g-tal {
+    text-align: left;
+}
+.g-tac {
+    text-align: center;
+}
+.g-tar {
+    text-align: right;
+}
+.g-white {
+    color: #ffffff;
+}
+.g-hidden {
+    display: none !important;
+}
+.g-clearfix:before,
+.g-clearfix:after {
+    content: " ";
+    display: table;
+}
+.g-clearfix:after {
+    clear: both;
+}
+.g-ib {
+    display: inline-block;
+    vertical-align: middle;
+}
+.g-wsnw {
+    white-space: nowrap;
+}
+.g-centerer {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+}
+.g-centered {
+    display: inline-block;
+    vertical-align: middle;
+}
+.g-noSelect {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.g-price{
+    font-family: Имя_кастомного_шрифта, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue Cyr", "Helvetica CY", Roboto, Ubuntu, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+.more_detailed-arrow:after {
+    content: url(../img/more_detailed-arrow.png);
+    display: inline-block;
+    margin-left: 0.5%;
+    position: absolute;
+}
+.mortgage__background-white{
+    background: white;
+    padding: 20px;
+}
+.mortgage__background-white-btn{
+
+}
+.btn-light-green{
+    width:50px;
+    height:50px;
+    background: #12bd65;
+    border: none;
+    padding: 15px 7px;
+    margin-right: 2%;
+}
+.btn-dark-green{
+    background: #32a693;
+    border: none;
+    padding: 15px 36px;
+    margin-right: 2%;
+    color: white;
+
+}
+.mortgage__background-white-btn-img{
+    width: 61%;
+}
+.mortgage__background-white-link{
+    color: red;
+}
+.mortgage__background_white_block{
+    width: 350px;
+    display: inline-block;
+    color: #ffffff;
+    margin: 30px 15px 30px;
+    padding: 15px;
+    text-align: left;
+}
+.disp-in-bl{
+    float: left;
+}
+.g-btn{
+    display: block;
+    margin: 0 auto;
+}
+.mortgage__background_white_rassrochka-text h3, .mortgage__background_white_rassrochka-text p{
+    margin-top: 1px!important;
+    margin-bottom: 10px!important;
+}
+.about_us{
+    width: 422px;
+    float: left;
+    margin: 15px 25px 15px;
+    padding: 15px;
+    color: white;
+    text-align: left;
+
+}
+.about-us__img{
+    float: left;
+    margin-right: 15px;
+}
+.about-us__img img{
+    width: 200px;
+
+}
+.g-pt80{
+    padding-top: 80px;
+}
+.g-pb80{
+    padding-bottom: 80px;
+}
+.g-pt50{
+    padding-top: 50px;
+}
+.g-pb50{
+    padding-bottom: 50px;
+}
+.g-p{
+    font-family: 'open_sansregular', arial;
+}
+.finish{
+    width: 294px;
+    margin: 15px;
+    padding: 15px;
+    float: left;
+    position: relative;
+    display: block;
+}
+
+
+.finish__sign-up{
+    display: block;
+    clear: left
+}
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
