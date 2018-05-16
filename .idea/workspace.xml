@@ -4,17 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/css/main.css" line="820" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0b6788e-3f64-434a-93bf-e2f3339fafed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg-night-1002.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg-night-1368.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg-night-1920.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg-night-602.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/right.png" beforeDir="false" />
-    </list>
+    <list default="true" id="d0b6788e-3f64-434a-93bf-e2f3339fafed" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,8 +94,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="755" column="22" lean-forward="true" selection-start-line="755" selection-start-column="22" selection-end-line="755" selection-end-column="22" />
+            <state relative-caret-position="415">
+              <caret line="756" column="18" lean-forward="true" selection-start-line="756" selection-start-column="18" selection-end-line="756" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -276,12 +266,12 @@
       <updated>1526313087416</updated>
       <workItem from="1526313088865" duration="513000" />
       <workItem from="1526313940982" duration="31624000" />
-      <workItem from="1526457229056" duration="14282000" />
+      <workItem from="1526457229056" duration="15223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46419000" />
+    <option name="totallyTimeSpent" value="47360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -521,8 +511,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="755" column="22" lean-forward="true" selection-start-line="755" selection-start-column="22" selection-end-line="755" selection-end-column="22" />
+        <state relative-caret-position="415">
+          <caret line="756" column="18" lean-forward="true" selection-start-line="756" selection-start-column="18" selection-end-line="756" selection-end-column="18" />
         </state>
       </provider>
     </entry>
