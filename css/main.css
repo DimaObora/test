@@ -852,5 +852,9 @@ button, input, textarea {
     flex-wrap: wrap;
     justify-content: center;
 }
+.about_us{
+    display: flex;
+    align-items: center;
+}
 
 

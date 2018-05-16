@@ -26,7 +26,7 @@ $PHONE = '<span class="g-phone g-phone-pc">' . $phone_desktop . '</span><span cl
         Раскомментировать функцию подключения шрифтов, задать Имя_набора_шрифтов_в_local_storage
         !!!!!!!!!!!!!!!!!!!!!!*/
         ?>
-        loadFont("MyFontPack","/css/fonts-woff.min.css","/css/fonts-woff2.min.css");
+        loadFont("open_sansregular","/fonts-woff.css/open-sans_allfont.ru-webfont.css","/css/fonts-woff2.min.css");
         //loadFont("Имя_набора_шрифтов_в_local_storage", "/css/fonts-woff.min.css", "/css/fonts-woff2.min.css");
     </script>
 

@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/css/main.css" line="820" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0b6788e-3f64-434a-93bf-e2f3339fafed" name="Default" comment="" />
+    <list default="true" id="d0b6788e-3f64-434a-93bf-e2f3339fafed" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,17 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="182" column="55" selection-start-line="182" selection-start-column="47" selection-end-line="182" selection-end-column="55" />
-              <folding>
-                <element signature="e#2034#2140#0#PHP" expanded="true" />
-                <element signature="e#4627#4876#0#PHP" expanded="true" />
-                <element signature="e#5158#5520#0#PHP" expanded="true" />
-                <element signature="e#11041#11180#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -48,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/fonts-woff.css/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="34" />
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -71,17 +67,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="slick-theme.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/slick-theme.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="415">
@@ -136,7 +121,6 @@
       <find>g-</find>
       <find>slider__item_img</find>
       <find>g-p</find>
-      <find>g-pr</find>
       <find>.g-bgRender</find>
       <find>mortgage__background_white_btn</find>
       <find>g-mt</find>
@@ -158,6 +142,7 @@
       <find>g-bgDarkRed</find>
       <find>g-bgWhite</find>
       <find>g-bgWhite g-bg-the-wall-is-blue</find>
+      <find>g-pr</find>
       <find>g-recall</find>
     </findStrings>
     <replaceStrings>
@@ -186,8 +171,8 @@
         <option value="$PROJECT_DIR$/css/main_tabs.css" />
         <option value="$PROJECT_DIR$/fonts-woff.css/stylesheet.css" />
         <option value="$USER_HOME$/Desktop/index.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -222,6 +207,11 @@
               <item name="test.lc" type="b2602c69:ProjectViewProjectNode" />
               <item name="test.lc" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test.lc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test.lc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fonts-woff.css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="test.lc" type="b2602c69:ProjectViewProjectNode" />
@@ -266,17 +256,18 @@
       <updated>1526313087416</updated>
       <workItem from="1526313088865" duration="513000" />
       <workItem from="1526313940982" duration="31624000" />
-      <workItem from="1526457229056" duration="15223000" />
+      <workItem from="1526457229056" duration="16664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47360000" />
+    <option name="totallyTimeSpent" value="48801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12153518" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32928178" />
@@ -285,7 +276,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" visible="true" weight="0.32928178" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" visible="true" weight="0.32928178" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -308,12 +299,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1564">
           <caret line="98" column="55" selection-start-line="98" selection-start-column="55" selection-end-line="98" selection-end-column="55" />
-          <folding>
-            <element signature="e#2034#2140#0#PHP" expanded="true" />
-            <element signature="e#4627#4876#0#PHP" expanded="true" />
-            <element signature="e#5158#5520#0#PHP" expanded="true" />
-            <element signature="e#11041#11180#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -386,12 +371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1768">
           <caret line="114" column="18" lean-forward="true" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
-          <folding>
-            <element signature="e#2034#2140#0#PHP" expanded="true" />
-            <element signature="e#4627#4876#0#PHP" expanded="true" />
-            <element signature="e#5158#5520#0#PHP" expanded="true" />
-            <element signature="e#11041#11180#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -476,13 +455,6 @@
     <entry file="file://$PROJECT_DIR$/fonts/webfontkit-20180516-082321/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fonts-woff.css/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -496,23 +468,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="182" column="55" selection-start-line="182" selection-start-column="47" selection-end-line="182" selection-end-column="55" />
-          <folding>
-            <element signature="e#2034#2140#0#PHP" expanded="true" />
-            <element signature="e#4627#4876#0#PHP" expanded="true" />
-            <element signature="e#5158#5520#0#PHP" expanded="true" />
-            <element signature="e#11041#11180#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
           <caret line="756" column="18" lean-forward="true" selection-start-line="756" selection-start-column="18" selection-end-line="756" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts-woff.css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts-woff.css/specimen_files/grid_12-825-55-15.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts-woff.css/specimen_files/specimen_stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1836" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
         </state>
       </provider>
     </entry>
