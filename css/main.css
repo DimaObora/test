@@ -101,7 +101,9 @@ button, input, textarea {
 .g-h3 {
     font-size: 28px;
     line-height: 1.25;
-    margin: 0 0 20px 0;
+    margin: 0 0 44px 0;
+    font-weight: 500;
+    font-family: Имя_кастомного_шрифта, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue Cyr", "Helvetica CY", Roboto, Ubuntu, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 .g-btn {
     background: #ffffff;
@@ -749,7 +751,7 @@ button, input, textarea {
 .more_detailed-arrow:after {
     content: url(../img/more_detailed-arrow.png);
     display: inline-block;
-    margin-left: 0.5%;
+    margin-left: 0.8%;
     position: absolute;
 }
 .mortgage__background-white{
@@ -856,5 +858,6 @@ button, input, textarea {
     display: flex;
     align-items: center;
 }
+
 
 

@@ -223,7 +223,7 @@ $PHONE = '<span class="g-phone g-phone-pc">' . $phone_desktop . '</span><span cl
                                 <img src="img/calculator.png" alt="">
                             </div>
                             <div class="mortgage__background_white_rassrochka-text disp-in-bl g-mb10">
-                                <h3>Рассрочка</h3>
+                                <h3 class="g-h3">Рассрочка</h3>
                                 <p>Беспроцентная рассрочка <br>на весь период</p>
                             </div>
                             <button class="mortgage__background_white_btn g-btn">
@@ -236,7 +236,7 @@ $PHONE = '<span class="g-phone g-phone-pc">' . $phone_desktop . '</span><span cl
                                 <img src="img/mat.kap.png" alt="">
                             </div>
                             <div class="mortgage__background-white-mat-kap-box-text disp-in-bl">
-                                <h3>Материнский <br> капетал</h3>
+                                <h3 class="g-h3">Материнский <br> капетал</h3>
                             </div>
                             <button class="mortgage__background_white_btn g-btn">
                                 <div class="mortgage__background_white_btn ">Выбрать макт. капитал</div>
